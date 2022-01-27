@@ -1,0 +1,8 @@
+D:/ClionProjects/OOPSLab/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/ClionProjects/OOPSLab/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/ClionProjects/OOPSLab/Fibonacci/FibonacciOutput/CMakeFiles/Fibonacci.dir
+D:/ClionProjects/OOPSLab/Fibonacci/FibonacciOutput/CMakeFiles/edit_cache.dir
+D:/ClionProjects/OOPSLab/Fibonacci/FibonacciOutput/CMakeFiles/rebuild_cache.dir
+D:/ClionProjects/OOPSLab/Factorial/FactorialOutput/CMakeFiles/edit_cache.dir
+D:/ClionProjects/OOPSLab/Factorial/FactorialOutput/CMakeFiles/Factorial.dir
+D:/ClionProjects/OOPSLab/Factorial/FactorialOutput/CMakeFiles/rebuild_cache.dir

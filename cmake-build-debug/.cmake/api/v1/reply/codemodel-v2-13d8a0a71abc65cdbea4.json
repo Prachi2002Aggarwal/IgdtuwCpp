@@ -1,0 +1,101 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "D:/ClionProjects/OOPSLab/Fibonacci/FibonacciOutput",
+					"jsonFile" : "directory-Fibonacci-Debug-417463695e61cf83916b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Fibonacci",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "D:/ClionProjects/OOPSLab/Factorial/FactorialOutput",
+					"jsonFile" : "directory-Factorial-Debug-6f2344bf3c7e3a3ad7ce.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Factorial",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "OOPSLab",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "Factorial::@64eb14cb7291e8cb2889",
+					"jsonFile" : "target-Factorial-Debug-072f0e5eec47c29be30c.json",
+					"name" : "Factorial",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Fibonacci::@61a80bbd3e217d31ef15",
+					"jsonFile" : "target-Fibonacci-Debug-f2b38bb97747b1042a0e.json",
+					"name" : "Fibonacci",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/ClionProjects/OOPSLab/cmake-build-debug",
+		"source" : "D:/ClionProjects/OOPSLab"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
