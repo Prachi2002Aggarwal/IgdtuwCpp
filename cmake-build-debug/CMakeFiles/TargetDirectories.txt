@@ -9,3 +9,12 @@ D:/ClionProjects/OOPSLab/Factorial/FactorialOutput/CMakeFiles/rebuild_cache.dir
 D:/ClionProjects/OOPSLab/InputOutput/InputOutputOutput/CMakeFiles/InputOutput.dir
 D:/ClionProjects/OOPSLab/InputOutput/InputOutputOutput/CMakeFiles/edit_cache.dir
 D:/ClionProjects/OOPSLab/InputOutput/InputOutputOutput/CMakeFiles/rebuild_cache.dir
+D:/ClionProjects/OOPSLab/Operations/OperationsOutput/CMakeFiles/Operations.dir
+D:/ClionProjects/OOPSLab/Operations/OperationsOutput/CMakeFiles/edit_cache.dir
+D:/ClionProjects/OOPSLab/Operations/OperationsOutput/CMakeFiles/rebuild_cache.dir
+D:/ClionProjects/OOPSLab/Conversions/ConversionsOutput/CMakeFiles/Conversions.dir
+D:/ClionProjects/OOPSLab/Conversions/ConversionsOutput/CMakeFiles/edit_cache.dir
+D:/ClionProjects/OOPSLab/Conversions/ConversionsOutput/CMakeFiles/rebuild_cache.dir
+D:/ClionProjects/OOPSLab/PerfectNumber/PerfectNumberOutput/CMakeFiles/PerfectNumber.dir
+D:/ClionProjects/OOPSLab/PerfectNumber/PerfectNumberOutput/CMakeFiles/edit_cache.dir
+D:/ClionProjects/OOPSLab/PerfectNumber/PerfectNumberOutput/CMakeFiles/rebuild_cache.dir

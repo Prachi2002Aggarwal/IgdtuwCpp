@@ -1,3 +1,5 @@
+///  Write a program to read an employee’s information from the user and print the same.
+
 #include<iostream>
 using namespace std;
 int main() {

@@ -247,7 +247,194 @@ build ../InputOutput/InputOutputOutput/CMakeFiles/rebuild_cache.util: CUSTOM_COM
 build ../InputOutput/InputOutputOutput/rebuild_cache: phony ../InputOutput/InputOutputOutput/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/ClionProjects/OOPSLab/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Operations
+
+
+#############################################
+# Order-only phony target for Operations
+
+build cmake_object_order_depends_target_Operations: phony || ../Operations/OperationsOutput/CMakeFiles/Operations.dir
+
+build ../Operations/OperationsOutput/CMakeFiles/Operations.dir/Operations.cpp.obj: CXX_COMPILER__Operations_Debug D$:/ClionProjects/OOPSLab/Operations/Operations.cpp || cmake_object_order_depends_target_Operations
+  DEP_FILE = ..\Operations\OperationsOutput\CMakeFiles\Operations.dir\Operations.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = ..\Operations\OperationsOutput\CMakeFiles\Operations.dir
+  OBJECT_FILE_DIR = ..\Operations\OperationsOutput\CMakeFiles\Operations.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Operations
+
+
+#############################################
+# Link the executable ..\Operations\OperationsOutput\Operations.exe
+
+build ../Operations/OperationsOutput/Operations.exe: CXX_EXECUTABLE_LINKER__Operations_Debug ../Operations/OperationsOutput/CMakeFiles/Operations.dir/Operations.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = ..\Operations\OperationsOutput\CMakeFiles\Operations.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ..\Operations\OperationsOutput\Operations.exe
+  TARGET_IMPLIB = ..\Operations\OperationsOutput\libOperations.dll.a
+  TARGET_PDB = Operations.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build ../Operations/OperationsOutput/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\ClionProjects\OOPSLab\Operations\OperationsOutput && D:\CLion\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build ../Operations/OperationsOutput/edit_cache: phony ../Operations/OperationsOutput/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build ../Operations/OperationsOutput/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\ClionProjects\OOPSLab\Operations\OperationsOutput && D:\CLion\bin\cmake\win\bin\cmake.exe --regenerate-during-build -SD:\ClionProjects\OOPSLab -BD:\ClionProjects\OOPSLab\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build ../Operations/OperationsOutput/rebuild_cache: phony ../Operations/OperationsOutput/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/ClionProjects/OOPSLab/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Conversions
+
+
+#############################################
+# Order-only phony target for Conversions
+
+build cmake_object_order_depends_target_Conversions: phony || ../Conversions/ConversionsOutput/CMakeFiles/Conversions.dir
+
+build ../Conversions/ConversionsOutput/CMakeFiles/Conversions.dir/Conversions.cpp.obj: CXX_COMPILER__Conversions_Debug D$:/ClionProjects/OOPSLab/Conversions/Conversions.cpp || cmake_object_order_depends_target_Conversions
+  DEP_FILE = ..\Conversions\ConversionsOutput\CMakeFiles\Conversions.dir\Conversions.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = ..\Conversions\ConversionsOutput\CMakeFiles\Conversions.dir
+  OBJECT_FILE_DIR = ..\Conversions\ConversionsOutput\CMakeFiles\Conversions.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Conversions
+
+
+#############################################
+# Link the executable ..\Conversions\ConversionsOutput\Conversions.exe
+
+build ../Conversions/ConversionsOutput/Conversions.exe: CXX_EXECUTABLE_LINKER__Conversions_Debug ../Conversions/ConversionsOutput/CMakeFiles/Conversions.dir/Conversions.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = ..\Conversions\ConversionsOutput\CMakeFiles\Conversions.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ..\Conversions\ConversionsOutput\Conversions.exe
+  TARGET_IMPLIB = ..\Conversions\ConversionsOutput\libConversions.dll.a
+  TARGET_PDB = Conversions.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build ../Conversions/ConversionsOutput/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\ClionProjects\OOPSLab\Conversions\ConversionsOutput && D:\CLion\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build ../Conversions/ConversionsOutput/edit_cache: phony ../Conversions/ConversionsOutput/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build ../Conversions/ConversionsOutput/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\ClionProjects\OOPSLab\Conversions\ConversionsOutput && D:\CLion\bin\cmake\win\bin\cmake.exe --regenerate-during-build -SD:\ClionProjects\OOPSLab -BD:\ClionProjects\OOPSLab\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build ../Conversions/ConversionsOutput/rebuild_cache: phony ../Conversions/ConversionsOutput/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/ClionProjects/OOPSLab/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PerfectNumber
+
+
+#############################################
+# Order-only phony target for PerfectNumber
+
+build cmake_object_order_depends_target_PerfectNumber: phony || ../PerfectNumber/PerfectNumberOutput/CMakeFiles/PerfectNumber.dir
+
+build ../PerfectNumber/PerfectNumberOutput/CMakeFiles/PerfectNumber.dir/PerfectNumber.cpp.obj: CXX_COMPILER__PerfectNumber_Debug D$:/ClionProjects/OOPSLab/PerfectNumber/PerfectNumber.cpp || cmake_object_order_depends_target_PerfectNumber
+  DEP_FILE = ..\PerfectNumber\PerfectNumberOutput\CMakeFiles\PerfectNumber.dir\PerfectNumber.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = ..\PerfectNumber\PerfectNumberOutput\CMakeFiles\PerfectNumber.dir
+  OBJECT_FILE_DIR = ..\PerfectNumber\PerfectNumberOutput\CMakeFiles\PerfectNumber.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PerfectNumber
+
+
+#############################################
+# Link the executable ..\PerfectNumber\PerfectNumberOutput\PerfectNumber.exe
+
+build ../PerfectNumber/PerfectNumberOutput/PerfectNumber.exe: CXX_EXECUTABLE_LINKER__PerfectNumber_Debug ../PerfectNumber/PerfectNumberOutput/CMakeFiles/PerfectNumber.dir/PerfectNumber.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = ..\PerfectNumber\PerfectNumberOutput\CMakeFiles\PerfectNumber.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ..\PerfectNumber\PerfectNumberOutput\PerfectNumber.exe
+  TARGET_IMPLIB = ..\PerfectNumber\PerfectNumberOutput\libPerfectNumber.dll.a
+  TARGET_PDB = PerfectNumber.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build ../PerfectNumber/PerfectNumberOutput/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\ClionProjects\OOPSLab\PerfectNumber\PerfectNumberOutput && D:\CLion\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build ../PerfectNumber/PerfectNumberOutput/edit_cache: phony ../PerfectNumber/PerfectNumberOutput/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build ../PerfectNumber/PerfectNumberOutput/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\ClionProjects\OOPSLab\PerfectNumber\PerfectNumberOutput && D:\CLion\bin\cmake\win\bin\cmake.exe --regenerate-during-build -SD:\ClionProjects\OOPSLab -BD:\ClionProjects\OOPSLab\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build ../PerfectNumber/PerfectNumberOutput/rebuild_cache: phony ../PerfectNumber/PerfectNumberOutput/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
+
+build Conversions: phony ../Conversions/ConversionsOutput/Conversions.exe
+
+build Conversions.exe: phony ../Conversions/ConversionsOutput/Conversions.exe
 
 build Factorial: phony ../Factorial/FactorialOutput/Factorial.exe
 
@@ -261,8 +448,23 @@ build InputOutput: phony ../InputOutput/InputOutputOutput/InputOutput.exe
 
 build InputOutput.exe: phony ../InputOutput/InputOutputOutput/InputOutput.exe
 
+build Operations: phony ../Operations/OperationsOutput/Operations.exe
+
+build Operations.exe: phony ../Operations/OperationsOutput/Operations.exe
+
+build PerfectNumber: phony ../PerfectNumber/PerfectNumberOutput/PerfectNumber.exe
+
+build PerfectNumber.exe: phony ../PerfectNumber/PerfectNumberOutput/PerfectNumber.exe
+
 # =============================================================================
 # Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: D:/ClionProjects/OOPSLab/Conversions/ConversionsOutput
+
+build ../Conversions/ConversionsOutput/all: phony ../Conversions/ConversionsOutput/Conversions.exe
 
 # =============================================================================
 
@@ -288,9 +490,23 @@ build ../InputOutput/InputOutputOutput/all: phony ../InputOutput/InputOutputOutp
 # =============================================================================
 
 #############################################
+# Folder: D:/ClionProjects/OOPSLab/Operations/OperationsOutput
+
+build ../Operations/OperationsOutput/all: phony ../Operations/OperationsOutput/Operations.exe
+
+# =============================================================================
+
+#############################################
+# Folder: D:/ClionProjects/OOPSLab/PerfectNumber/PerfectNumberOutput
+
+build ../PerfectNumber/PerfectNumberOutput/all: phony ../PerfectNumber/PerfectNumberOutput/PerfectNumber.exe
+
+# =============================================================================
+
+#############################################
 # Folder: D:/ClionProjects/OOPSLab/cmake-build-debug
 
-build all: phony ../Fibonacci/FibonacciOutput/all ../Factorial/FactorialOutput/all ../InputOutput/InputOutputOutput/all
+build all: phony ../Fibonacci/FibonacciOutput/all ../Factorial/FactorialOutput/all ../InputOutput/InputOutputOutput/all ../Operations/OperationsOutput/all ../Conversions/ConversionsOutput/all ../PerfectNumber/PerfectNumberOutput/all
 
 # =============================================================================
 # Built-in targets
@@ -299,14 +515,14 @@ build all: phony ../Fibonacci/FibonacciOutput/all ../Factorial/FactorialOutput/a
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ../CMakeLists.txt ../Factorial/CMakeLists.txt ../Fibonacci/CMakeLists.txt ../InputOutput/CMakeLists.txt CMakeCache.txt CMakeFiles/3.21.1/CMakeCCompiler.cmake CMakeFiles/3.21.1/CMakeCXXCompiler.cmake CMakeFiles/3.21.1/CMakeRCCompiler.cmake CMakeFiles/3.21.1/CMakeSystem.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeCInformation.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeCXXInformation.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeGenericSystem.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeRCInformation.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-C.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-CXX.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-C.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-CXX.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-windres.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/WindowsPaths.cmake
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt ../Conversions/CMakeLists.txt ../Factorial/CMakeLists.txt ../Fibonacci/CMakeLists.txt ../InputOutput/CMakeLists.txt ../Operations/CMakeLists.txt ../PerfectNumber/CMakeLists.txt CMakeCache.txt CMakeFiles/3.21.1/CMakeCCompiler.cmake CMakeFiles/3.21.1/CMakeCXXCompiler.cmake CMakeFiles/3.21.1/CMakeRCCompiler.cmake CMakeFiles/3.21.1/CMakeSystem.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeCInformation.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeCXXInformation.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeGenericSystem.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeRCInformation.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-C.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-CXX.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-C.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-CXX.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-windres.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/WindowsPaths.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ../CMakeLists.txt ../Factorial/CMakeLists.txt ../Fibonacci/CMakeLists.txt ../InputOutput/CMakeLists.txt CMakeCache.txt CMakeFiles/3.21.1/CMakeCCompiler.cmake CMakeFiles/3.21.1/CMakeCXXCompiler.cmake CMakeFiles/3.21.1/CMakeRCCompiler.cmake CMakeFiles/3.21.1/CMakeSystem.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeCInformation.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeCXXInformation.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeGenericSystem.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeRCInformation.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-C.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-CXX.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-C.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-CXX.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-windres.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/WindowsPaths.cmake: phony
+build ../CMakeLists.txt ../Conversions/CMakeLists.txt ../Factorial/CMakeLists.txt ../Fibonacci/CMakeLists.txt ../InputOutput/CMakeLists.txt ../Operations/CMakeLists.txt ../PerfectNumber/CMakeLists.txt CMakeCache.txt CMakeFiles/3.21.1/CMakeCCompiler.cmake CMakeFiles/3.21.1/CMakeCXXCompiler.cmake CMakeFiles/3.21.1/CMakeRCCompiler.cmake CMakeFiles/3.21.1/CMakeSystem.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeCInformation.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeCXXInformation.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeGenericSystem.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeRCInformation.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-C.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-CXX.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-C.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-CXX.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-windres.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/WindowsPaths.cmake: phony
 
 
 #############################################

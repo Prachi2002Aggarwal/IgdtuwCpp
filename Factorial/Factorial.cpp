@@ -1,3 +1,5 @@
+/// Write a program to calculate factorial of a number entered by user.
+
 #include <iostream>
 using namespace std;
 int main() {

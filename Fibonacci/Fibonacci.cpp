@@ -1,6 +1,5 @@
-//
-// Created by prach on 27-01-2022.
-//
+/// Write a program to print Fibonacci series up to n.
+
 #include<iostream>
 using namespace std;
 int main() {
