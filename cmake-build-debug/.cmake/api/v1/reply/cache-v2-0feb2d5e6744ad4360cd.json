@@ -771,7 +771,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "3"
+			"value" : "4"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
@@ -1239,7 +1239,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/ClionProjects/OOPSLab/Factorial/FactorialOutput"
+			"value" : "D:/ClionProjects/OOPSLab/InputOutput/InputOutputOutput"
 		},
 		{
 			"name" : "OOPSLab_IS_TOP_LEVEL",
@@ -1263,7 +1263,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/ClionProjects/OOPSLab/Factorial"
+			"value" : "D:/ClionProjects/OOPSLab/InputOutput"
 		}
 	],
 	"kind" : "cache",

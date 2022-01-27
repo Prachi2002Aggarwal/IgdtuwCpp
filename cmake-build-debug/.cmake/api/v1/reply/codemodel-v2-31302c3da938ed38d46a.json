@@ -9,7 +9,8 @@
 					"childIndexes" : 
 					[
 						1,
-						2
+						2,
+						3
 					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -48,6 +49,21 @@
 					[
 						0
 					]
+				},
+				{
+					"build" : "D:/ClionProjects/OOPSLab/InputOutput/InputOutputOutput",
+					"jsonFile" : "directory-InputOutput-Debug-0e7b7b36768945fc34fa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "InputOutput",
+					"targetIndexes" : 
+					[
+						2
+					]
 				}
 			],
 			"name" : "Debug",
@@ -58,13 +74,15 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					],
 					"name" : "OOPSLab",
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -82,6 +100,13 @@
 					"id" : "Fibonacci::@61a80bbd3e217d31ef15",
 					"jsonFile" : "target-Fibonacci-Debug-f2b38bb97747b1042a0e.json",
 					"name" : "Fibonacci",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "InputOutput::@1f40d7ddb34603860496",
+					"jsonFile" : "target-InputOutput-Debug-76b50cf6d2da21c04df7.json",
+					"name" : "InputOutput",
 					"projectIndex" : 0
 				}
 			]

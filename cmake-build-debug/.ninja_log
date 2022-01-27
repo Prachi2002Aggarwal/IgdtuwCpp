@@ -1,7 +1,9 @@
 # ninja log v5
 2	273	6649702828980929	CMakeFiles/OOPSLab.dir/main.cpp.obj	1b812314744bba7f
 273	388	6649702830112731	OOPSLab.exe	9227df19ab4255ab
+0	290	6649985583499917	../Factorial/FactorialOutput/CMakeFiles/Factorial.dir/Factorial.cpp.obj	f558c25cb8cd2e7
 1	314	6649983997004638	../Fibonacci/FibonacciOutput/CMakeFiles/Fibonacci.dir/Fibonacci.cpp.obj	855bcd085d8951b
 315	499	6649983998838171	../Fibonacci/FibonacciOutput/Fibonacci.exe	d36e2bcbb0969904
-0	290	6649985583499917	../Factorial/FactorialOutput/CMakeFiles/Factorial.dir/Factorial.cpp.obj	f558c25cb8cd2e7
 290	401	6649985584594320	../Factorial/FactorialOutput/Factorial.exe	c247b61f8cc6cb58
+0	231	6650010562209918	../InputOutput/InputOutputOutput/CMakeFiles/InputOutput.dir/InputOutput.cpp.obj	2151f11373815669
+232	345	6650010563314230	../InputOutput/InputOutputOutput/InputOutput.exe	35ea5fee0e9272e4

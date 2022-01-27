@@ -150,6 +150,9 @@
 		},
 		{
 			"path" : "Factorial/CMakeLists.txt"
+		},
+		{
+			"path" : "InputOutput/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",
