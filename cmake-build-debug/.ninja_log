@@ -1,15 +1,15 @@
 # ninja log v5
 2	273	6649702828980929	CMakeFiles/OOPSLab.dir/main.cpp.obj	1b812314744bba7f
 273	388	6649702830112731	OOPSLab.exe	9227df19ab4255ab
-0	290	6649985583499917	../Factorial/FactorialOutput/CMakeFiles/Factorial.dir/Factorial.cpp.obj	f558c25cb8cd2e7
-1	314	6649983997004638	../Fibonacci/FibonacciOutput/CMakeFiles/Fibonacci.dir/Fibonacci.cpp.obj	855bcd085d8951b
-232	345	6650010563314230	../InputOutput/InputOutputOutput/InputOutput.exe	35ea5fee0e9272e4
-315	499	6649983998838171	../Fibonacci/FibonacciOutput/Fibonacci.exe	d36e2bcbb0969904
-290	401	6649985584594320	../Factorial/FactorialOutput/Factorial.exe	c247b61f8cc6cb58
-0	231	6650010562209918	../InputOutput/InputOutputOutput/CMakeFiles/InputOutput.dir/InputOutput.cpp.obj	2151f11373815669
-0	237	6650017606638678	../Operations/OperationsOutput/CMakeFiles/Operations.dir/Operations.cpp.obj	4aa4477acc5c2d4d
-237	324	6650017607478570	../Operations/OperationsOutput/Operations.exe	cd556db45fd9713a
-0	248	6650019133209579	../Conversions/ConversionsOutput/CMakeFiles/Conversions.dir/Conversions.cpp.obj	a8c19e0eb6777a1c
-248	348	6650019134166488	../Conversions/ConversionsOutput/Conversions.exe	a40c13266ce3a452
-0	245	6650020589119615	../PerfectNumber/PerfectNumberOutput/CMakeFiles/PerfectNumber.dir/PerfectNumber.cpp.obj	d7cb84ea82ef148b
-245	338	6650020590027178	../PerfectNumber/PerfectNumberOutput/PerfectNumber.exe	7900a10ed2bf8195
+1	250	6660632559889909	../Factorial/FactorialOutput/CMakeFiles/Factorial.dir/Factorial.cpp.obj	f558c25cb8cd2e7
+1	242	6660634259528290	../Fibonacci/FibonacciOutput/CMakeFiles/Fibonacci.dir/Fibonacci.cpp.obj	855bcd085d8951b
+242	355	6660635780922359	../InputOutput/InputOutputOutput/InputOutput.exe	35ea5fee0e9272e4
+242	333	6660634260418293	../Fibonacci/FibonacciOutput/Fibonacci.exe	d36e2bcbb0969904
+250	345	6660632560819877	../Factorial/FactorialOutput/Factorial.exe	c247b61f8cc6cb58
+1	242	6660635779832393	../InputOutput/InputOutputOutput/CMakeFiles/InputOutput.dir/InputOutput.cpp.obj	2151f11373815669
+2	246	6660644185960534	../PerfectNumber/PerfectNumberOutput/CMakeFiles/PerfectNumber.dir/PerfectNumber.cpp.obj	d7cb84ea82ef148b
+1	246	6660638481289832	../Operations/OperationsOutput/CMakeFiles/Operations.dir/Operations.cpp.obj	4aa4477acc5c2d4d
+246	339	6660638482199840	../Operations/OperationsOutput/Operations.exe	cd556db45fd9713a
+2	235	6660641947060071	../Conversions/ConversionsOutput/CMakeFiles/Conversions.dir/Conversions.cpp.obj	a8c19e0eb6777a1c
+235	322	6660641947900114	../Conversions/ConversionsOutput/Conversions.exe	a40c13266ce3a452
+247	374	6660644187200532	../PerfectNumber/PerfectNumberOutput/PerfectNumber.exe	7900a10ed2bf8195

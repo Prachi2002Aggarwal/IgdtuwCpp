@@ -9,3 +9,4 @@ add_subdirectory("${PROJECT_SOURCE_DIR}/InputOutput" "${PROJECT_SOURCE_DIR}/Inpu
 add_subdirectory("${PROJECT_SOURCE_DIR}/Operations" "${PROJECT_SOURCE_DIR}/Operations/OperationsOutput")
 add_subdirectory("${PROJECT_SOURCE_DIR}/Conversions" "${PROJECT_SOURCE_DIR}/Conversions/ConversionsOutput")
 add_subdirectory("${PROJECT_SOURCE_DIR}/PerfectNumber" "${PROJECT_SOURCE_DIR}/PerfectNumber/PerfectNumberOutput")
+add_subdirectory("${PROJECT_SOURCE_DIR}/swapNumbers" "${PROJECT_SOURCE_DIR}/swapNumbers/swapNumbersOutput")

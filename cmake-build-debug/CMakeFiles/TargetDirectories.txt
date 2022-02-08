@@ -18,3 +18,6 @@ D:/ClionProjects/OOPSLab/Conversions/ConversionsOutput/CMakeFiles/rebuild_cache.
 D:/ClionProjects/OOPSLab/PerfectNumber/PerfectNumberOutput/CMakeFiles/PerfectNumber.dir
 D:/ClionProjects/OOPSLab/PerfectNumber/PerfectNumberOutput/CMakeFiles/edit_cache.dir
 D:/ClionProjects/OOPSLab/PerfectNumber/PerfectNumberOutput/CMakeFiles/rebuild_cache.dir
+D:/ClionProjects/OOPSLab/swapNumbers/swapNumbersOutput/CMakeFiles/edit_cache.dir
+D:/ClionProjects/OOPSLab/swapNumbers/swapNumbersOutput/CMakeFiles/swapNumbers.dir
+D:/ClionProjects/OOPSLab/swapNumbers/swapNumbersOutput/CMakeFiles/rebuild_cache.dir

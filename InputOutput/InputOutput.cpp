@@ -13,7 +13,11 @@ int main() {
     getline(cin , name);
     cout << "Enter Salary : ";
     cin >> salary;
+    cout << "-----------Printing details------------" << endl;
     cout << "ID : " << id << endl;
     cout << "Name : " << name << endl;
     cout << "Salary : " << salary << endl;
 }
+
+
+

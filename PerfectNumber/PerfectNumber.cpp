@@ -5,6 +5,7 @@
 using namespace std;
 int main() {
     int sum;
+    cout<<"Printing all perfect numbers from 1 to 10000: "<<endl;
     for(int i = 2 ; i <= 10000 ; i++) {
         sum = 0;
         for(int j = 1 ; j < i ; j++) {
@@ -18,3 +19,5 @@ int main() {
 
     }
 }
+
+
