@@ -1,3 +1,4 @@
+
 #include<iostream>
 using namespace std;
 void swapByValue(int x, int y){
@@ -24,16 +25,19 @@ int main(){
     cin>>b;
     int copya=a;
     int copyb=b;
+
     cout<<"Call by value"<<endl;
     swapByValue(a,b);
     cout << "After swap, value of a :" << a << endl;
     cout << "After swap, value of b :" << b << endl;
-    //---------------------------------------
+
+
     cout<<"Call by reference"<<endl;
     swapByReference(a,b);
     cout << "After swap, value of a :" << a << endl;
     cout << "After swap, value of b :" << b << endl;
-    //----------------------------------------
+
+
     a=copya;
     b=copyb;
     cout<<"Pointer"<<endl;
@@ -41,3 +45,5 @@ int main(){
     cout << "After swap, value of a :" << a << endl;
     cout << "After swap, value of b :" << b << endl;
 }
+
+

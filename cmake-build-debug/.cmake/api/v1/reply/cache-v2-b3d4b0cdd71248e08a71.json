@@ -771,7 +771,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "8"
+			"value" : "14"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
@@ -1239,7 +1239,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/ClionProjects/OOPSLab/swapNumbers/swapNumbersOutput"
+			"value" : "D:/ClionProjects/OOPSLab/ArrayOfObjectsAccount/ArrayOfObjectsAccountOutput"
 		},
 		{
 			"name" : "OOPSLab_IS_TOP_LEVEL",
@@ -1263,7 +1263,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/ClionProjects/OOPSLab/swapNumbers"
+			"value" : "D:/ClionProjects/OOPSLab/ArrayOfObjectsAccount"
 		}
 	],
 	"kind" : "cache",

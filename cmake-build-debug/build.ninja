@@ -491,7 +491,389 @@ build ../swapNumbers/swapNumbersOutput/CMakeFiles/rebuild_cache.util: CUSTOM_COM
 build ../swapNumbers/swapNumbersOutput/rebuild_cache: phony ../swapNumbers/swapNumbersOutput/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/ClionProjects/OOPSLab/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build ../FunctionOverloading/FunctionOverloadingOutput/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\ClionProjects\OOPSLab\FunctionOverloading\FunctionOverloadingOutput && D:\CLion\bin\cmake\win\bin\cmake.exe --regenerate-during-build -SD:\ClionProjects\OOPSLab -BD:\ClionProjects\OOPSLab\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build ../FunctionOverloading/FunctionOverloadingOutput/rebuild_cache: phony ../FunctionOverloading/FunctionOverloadingOutput/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Object build statements for EXECUTABLE target FunctionOverloading
+
+
+#############################################
+# Order-only phony target for FunctionOverloading
+
+build cmake_object_order_depends_target_FunctionOverloading: phony || ../FunctionOverloading/FunctionOverloadingOutput/CMakeFiles/FunctionOverloading.dir
+
+build ../FunctionOverloading/FunctionOverloadingOutput/CMakeFiles/FunctionOverloading.dir/FunctionOverloading.cpp.obj: CXX_COMPILER__FunctionOverloading_Debug D$:/ClionProjects/OOPSLab/FunctionOverloading/FunctionOverloading.cpp || cmake_object_order_depends_target_FunctionOverloading
+  DEP_FILE = ..\FunctionOverloading\FunctionOverloadingOutput\CMakeFiles\FunctionOverloading.dir\FunctionOverloading.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = ..\FunctionOverloading\FunctionOverloadingOutput\CMakeFiles\FunctionOverloading.dir
+  OBJECT_FILE_DIR = ..\FunctionOverloading\FunctionOverloadingOutput\CMakeFiles\FunctionOverloading.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target FunctionOverloading
+
+
+#############################################
+# Link the executable ..\FunctionOverloading\FunctionOverloadingOutput\FunctionOverloading.exe
+
+build ../FunctionOverloading/FunctionOverloadingOutput/FunctionOverloading.exe: CXX_EXECUTABLE_LINKER__FunctionOverloading_Debug ../FunctionOverloading/FunctionOverloadingOutput/CMakeFiles/FunctionOverloading.dir/FunctionOverloading.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = ..\FunctionOverloading\FunctionOverloadingOutput\CMakeFiles\FunctionOverloading.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ..\FunctionOverloading\FunctionOverloadingOutput\FunctionOverloading.exe
+  TARGET_IMPLIB = ..\FunctionOverloading\FunctionOverloadingOutput\libFunctionOverloading.dll.a
+  TARGET_PDB = FunctionOverloading.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build ../FunctionOverloading/FunctionOverloadingOutput/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\ClionProjects\OOPSLab\FunctionOverloading\FunctionOverloadingOutput && D:\CLion\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build ../FunctionOverloading/FunctionOverloadingOutput/edit_cache: phony ../FunctionOverloading/FunctionOverloadingOutput/CMakeFiles/edit_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/ClionProjects/OOPSLab/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Function
+
+
+#############################################
+# Order-only phony target for Function
+
+build cmake_object_order_depends_target_Function: phony || ../Function/FunctionOutput/CMakeFiles/Function.dir
+
+build ../Function/FunctionOutput/CMakeFiles/Function.dir/Function.cpp.obj: CXX_COMPILER__Function_Debug D$:/ClionProjects/OOPSLab/Function/Function.cpp || cmake_object_order_depends_target_Function
+  DEP_FILE = ..\Function\FunctionOutput\CMakeFiles\Function.dir\Function.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = ..\Function\FunctionOutput\CMakeFiles\Function.dir
+  OBJECT_FILE_DIR = ..\Function\FunctionOutput\CMakeFiles\Function.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Function
+
+
+#############################################
+# Link the executable ..\Function\FunctionOutput\Function.exe
+
+build ../Function/FunctionOutput/Function.exe: CXX_EXECUTABLE_LINKER__Function_Debug ../Function/FunctionOutput/CMakeFiles/Function.dir/Function.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = ..\Function\FunctionOutput\CMakeFiles\Function.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ..\Function\FunctionOutput\Function.exe
+  TARGET_IMPLIB = ..\Function\FunctionOutput\libFunction.dll.a
+  TARGET_PDB = Function.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build ../Function/FunctionOutput/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\ClionProjects\OOPSLab\Function\FunctionOutput && D:\CLion\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build ../Function/FunctionOutput/edit_cache: phony ../Function/FunctionOutput/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build ../Function/FunctionOutput/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\ClionProjects\OOPSLab\Function\FunctionOutput && D:\CLion\bin\cmake\win\bin\cmake.exe --regenerate-during-build -SD:\ClionProjects\OOPSLab -BD:\ClionProjects\OOPSLab\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build ../Function/FunctionOutput/rebuild_cache: phony ../Function/FunctionOutput/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/ClionProjects/OOPSLab/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Class
+
+
+#############################################
+# Order-only phony target for Class
+
+build cmake_object_order_depends_target_Class: phony || ../Class/ClassOutput/CMakeFiles/Class.dir
+
+build ../Class/ClassOutput/CMakeFiles/Class.dir/Class.cpp.obj: CXX_COMPILER__Class_Debug D$:/ClionProjects/OOPSLab/Class/Class.cpp || cmake_object_order_depends_target_Class
+  DEP_FILE = ..\Class\ClassOutput\CMakeFiles\Class.dir\Class.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = ..\Class\ClassOutput\CMakeFiles\Class.dir
+  OBJECT_FILE_DIR = ..\Class\ClassOutput\CMakeFiles\Class.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Class
+
+
+#############################################
+# Link the executable ..\Class\ClassOutput\Class.exe
+
+build ../Class/ClassOutput/Class.exe: CXX_EXECUTABLE_LINKER__Class_Debug ../Class/ClassOutput/CMakeFiles/Class.dir/Class.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = ..\Class\ClassOutput\CMakeFiles\Class.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ..\Class\ClassOutput\Class.exe
+  TARGET_IMPLIB = ..\Class\ClassOutput\libClass.dll.a
+  TARGET_PDB = Class.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build ../Class/ClassOutput/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\ClionProjects\OOPSLab\Class\ClassOutput && D:\CLion\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build ../Class/ClassOutput/edit_cache: phony ../Class/ClassOutput/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build ../Class/ClassOutput/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\ClionProjects\OOPSLab\Class\ClassOutput && D:\CLion\bin\cmake\win\bin\cmake.exe --regenerate-during-build -SD:\ClionProjects\OOPSLab -BD:\ClionProjects\OOPSLab\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build ../Class/ClassOutput/rebuild_cache: phony ../Class/ClassOutput/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/ClionProjects/OOPSLab/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build ../ArrayOfObjects/ArrayOfObjectsOutput/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\ClionProjects\OOPSLab\ArrayOfObjects\ArrayOfObjectsOutput && D:\CLion\bin\cmake\win\bin\cmake.exe --regenerate-during-build -SD:\ClionProjects\OOPSLab -BD:\ClionProjects\OOPSLab\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build ../ArrayOfObjects/ArrayOfObjectsOutput/rebuild_cache: phony ../ArrayOfObjects/ArrayOfObjectsOutput/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ArrayOfObjects
+
+
+#############################################
+# Order-only phony target for ArrayOfObjects
+
+build cmake_object_order_depends_target_ArrayOfObjects: phony || ../ArrayOfObjects/ArrayOfObjectsOutput/CMakeFiles/ArrayOfObjects.dir
+
+build ../ArrayOfObjects/ArrayOfObjectsOutput/CMakeFiles/ArrayOfObjects.dir/ArrayOfObjects.cpp.obj: CXX_COMPILER__ArrayOfObjects_Debug D$:/ClionProjects/OOPSLab/ArrayOfObjects/ArrayOfObjects.cpp || cmake_object_order_depends_target_ArrayOfObjects
+  DEP_FILE = ..\ArrayOfObjects\ArrayOfObjectsOutput\CMakeFiles\ArrayOfObjects.dir\ArrayOfObjects.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = ..\ArrayOfObjects\ArrayOfObjectsOutput\CMakeFiles\ArrayOfObjects.dir
+  OBJECT_FILE_DIR = ..\ArrayOfObjects\ArrayOfObjectsOutput\CMakeFiles\ArrayOfObjects.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ArrayOfObjects
+
+
+#############################################
+# Link the executable ..\ArrayOfObjects\ArrayOfObjectsOutput\ArrayOfObjects.exe
+
+build ../ArrayOfObjects/ArrayOfObjectsOutput/ArrayOfObjects.exe: CXX_EXECUTABLE_LINKER__ArrayOfObjects_Debug ../ArrayOfObjects/ArrayOfObjectsOutput/CMakeFiles/ArrayOfObjects.dir/ArrayOfObjects.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = ..\ArrayOfObjects\ArrayOfObjectsOutput\CMakeFiles\ArrayOfObjects.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ..\ArrayOfObjects\ArrayOfObjectsOutput\ArrayOfObjects.exe
+  TARGET_IMPLIB = ..\ArrayOfObjects\ArrayOfObjectsOutput\libArrayOfObjects.dll.a
+  TARGET_PDB = ArrayOfObjects.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build ../ArrayOfObjects/ArrayOfObjectsOutput/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\ClionProjects\OOPSLab\ArrayOfObjects\ArrayOfObjectsOutput && D:\CLion\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build ../ArrayOfObjects/ArrayOfObjectsOutput/edit_cache: phony ../ArrayOfObjects/ArrayOfObjectsOutput/CMakeFiles/edit_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/ClionProjects/OOPSLab/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ArrayOfObjectsStudents
+
+
+#############################################
+# Order-only phony target for ArrayOfObjectsStudents
+
+build cmake_object_order_depends_target_ArrayOfObjectsStudents: phony || ../ArrayOfObjectsStudents/ArrayOfObjectsStudentsOutput/CMakeFiles/ArrayOfObjectsStudents.dir
+
+build ../ArrayOfObjectsStudents/ArrayOfObjectsStudentsOutput/CMakeFiles/ArrayOfObjectsStudents.dir/ArrayOfObjectsStudents.cpp.obj: CXX_COMPILER__ArrayOfObjectsStudents_Debug D$:/ClionProjects/OOPSLab/ArrayOfObjectsStudents/ArrayOfObjectsStudents.cpp || cmake_object_order_depends_target_ArrayOfObjectsStudents
+  DEP_FILE = ..\ArrayOfObjectsStudents\ArrayOfObjectsStudentsOutput\CMakeFiles\ArrayOfObjectsStudents.dir\ArrayOfObjectsStudents.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = ..\ArrayOfObjectsStudents\ArrayOfObjectsStudentsOutput\CMakeFiles\ArrayOfObjectsStudents.dir
+  OBJECT_FILE_DIR = ..\ArrayOfObjectsStudents\ArrayOfObjectsStudentsOutput\CMakeFiles\ArrayOfObjectsStudents.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ArrayOfObjectsStudents
+
+
+#############################################
+# Link the executable ..\ArrayOfObjectsStudents\ArrayOfObjectsStudentsOutput\ArrayOfObjectsStudents.exe
+
+build ../ArrayOfObjectsStudents/ArrayOfObjectsStudentsOutput/ArrayOfObjectsStudents.exe: CXX_EXECUTABLE_LINKER__ArrayOfObjectsStudents_Debug ../ArrayOfObjectsStudents/ArrayOfObjectsStudentsOutput/CMakeFiles/ArrayOfObjectsStudents.dir/ArrayOfObjectsStudents.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = ..\ArrayOfObjectsStudents\ArrayOfObjectsStudentsOutput\CMakeFiles\ArrayOfObjectsStudents.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ..\ArrayOfObjectsStudents\ArrayOfObjectsStudentsOutput\ArrayOfObjectsStudents.exe
+  TARGET_IMPLIB = ..\ArrayOfObjectsStudents\ArrayOfObjectsStudentsOutput\libArrayOfObjectsStudents.dll.a
+  TARGET_PDB = ArrayOfObjectsStudents.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build ../ArrayOfObjectsStudents/ArrayOfObjectsStudentsOutput/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\ClionProjects\OOPSLab\ArrayOfObjectsStudents\ArrayOfObjectsStudentsOutput && D:\CLion\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build ../ArrayOfObjectsStudents/ArrayOfObjectsStudentsOutput/edit_cache: phony ../ArrayOfObjectsStudents/ArrayOfObjectsStudentsOutput/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build ../ArrayOfObjectsStudents/ArrayOfObjectsStudentsOutput/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\ClionProjects\OOPSLab\ArrayOfObjectsStudents\ArrayOfObjectsStudentsOutput && D:\CLion\bin\cmake\win\bin\cmake.exe --regenerate-during-build -SD:\ClionProjects\OOPSLab -BD:\ClionProjects\OOPSLab\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build ../ArrayOfObjectsStudents/ArrayOfObjectsStudentsOutput/rebuild_cache: phony ../ArrayOfObjectsStudents/ArrayOfObjectsStudentsOutput/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/ClionProjects/OOPSLab/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ArrayOfObjectsAccount
+
+
+#############################################
+# Order-only phony target for ArrayOfObjectsAccount
+
+build cmake_object_order_depends_target_ArrayOfObjectsAccount: phony || ../ArrayOfObjectsAccount/ArrayOfObjectsAccountOutput/CMakeFiles/ArrayOfObjectsAccount.dir
+
+build ../ArrayOfObjectsAccount/ArrayOfObjectsAccountOutput/CMakeFiles/ArrayOfObjectsAccount.dir/ArrayOfObjectsAccount.cpp.obj: CXX_COMPILER__ArrayOfObjectsAccount_Debug D$:/ClionProjects/OOPSLab/ArrayOfObjectsAccount/ArrayOfObjectsAccount.cpp || cmake_object_order_depends_target_ArrayOfObjectsAccount
+  DEP_FILE = ..\ArrayOfObjectsAccount\ArrayOfObjectsAccountOutput\CMakeFiles\ArrayOfObjectsAccount.dir\ArrayOfObjectsAccount.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = ..\ArrayOfObjectsAccount\ArrayOfObjectsAccountOutput\CMakeFiles\ArrayOfObjectsAccount.dir
+  OBJECT_FILE_DIR = ..\ArrayOfObjectsAccount\ArrayOfObjectsAccountOutput\CMakeFiles\ArrayOfObjectsAccount.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ArrayOfObjectsAccount
+
+
+#############################################
+# Link the executable ..\ArrayOfObjectsAccount\ArrayOfObjectsAccountOutput\ArrayOfObjectsAccount.exe
+
+build ../ArrayOfObjectsAccount/ArrayOfObjectsAccountOutput/ArrayOfObjectsAccount.exe: CXX_EXECUTABLE_LINKER__ArrayOfObjectsAccount_Debug ../ArrayOfObjectsAccount/ArrayOfObjectsAccountOutput/CMakeFiles/ArrayOfObjectsAccount.dir/ArrayOfObjectsAccount.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = ..\ArrayOfObjectsAccount\ArrayOfObjectsAccountOutput\CMakeFiles\ArrayOfObjectsAccount.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ..\ArrayOfObjectsAccount\ArrayOfObjectsAccountOutput\ArrayOfObjectsAccount.exe
+  TARGET_IMPLIB = ..\ArrayOfObjectsAccount\ArrayOfObjectsAccountOutput\libArrayOfObjectsAccount.dll.a
+  TARGET_PDB = ArrayOfObjectsAccount.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build ../ArrayOfObjectsAccount/ArrayOfObjectsAccountOutput/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\ClionProjects\OOPSLab\ArrayOfObjectsAccount\ArrayOfObjectsAccountOutput && D:\CLion\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build ../ArrayOfObjectsAccount/ArrayOfObjectsAccountOutput/edit_cache: phony ../ArrayOfObjectsAccount/ArrayOfObjectsAccountOutput/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build ../ArrayOfObjectsAccount/ArrayOfObjectsAccountOutput/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\ClionProjects\OOPSLab\ArrayOfObjectsAccount\ArrayOfObjectsAccountOutput && D:\CLion\bin\cmake\win\bin\cmake.exe --regenerate-during-build -SD:\ClionProjects\OOPSLab -BD:\ClionProjects\OOPSLab\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build ../ArrayOfObjectsAccount/ArrayOfObjectsAccountOutput/rebuild_cache: phony ../ArrayOfObjectsAccount/ArrayOfObjectsAccountOutput/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
+
+build ArrayOfObjects: phony ../ArrayOfObjects/ArrayOfObjectsOutput/ArrayOfObjects.exe
+
+build ArrayOfObjects.exe: phony ../ArrayOfObjects/ArrayOfObjectsOutput/ArrayOfObjects.exe
+
+build ArrayOfObjectsAccount: phony ../ArrayOfObjectsAccount/ArrayOfObjectsAccountOutput/ArrayOfObjectsAccount.exe
+
+build ArrayOfObjectsAccount.exe: phony ../ArrayOfObjectsAccount/ArrayOfObjectsAccountOutput/ArrayOfObjectsAccount.exe
+
+build ArrayOfObjectsStudents: phony ../ArrayOfObjectsStudents/ArrayOfObjectsStudentsOutput/ArrayOfObjectsStudents.exe
+
+build ArrayOfObjectsStudents.exe: phony ../ArrayOfObjectsStudents/ArrayOfObjectsStudentsOutput/ArrayOfObjectsStudents.exe
+
+build Class: phony ../Class/ClassOutput/Class.exe
+
+build Class.exe: phony ../Class/ClassOutput/Class.exe
 
 build Conversions: phony ../Conversions/ConversionsOutput/Conversions.exe
 
@@ -504,6 +886,14 @@ build Factorial.exe: phony ../Factorial/FactorialOutput/Factorial.exe
 build Fibonacci: phony ../Fibonacci/FibonacciOutput/Fibonacci.exe
 
 build Fibonacci.exe: phony ../Fibonacci/FibonacciOutput/Fibonacci.exe
+
+build Function: phony ../Function/FunctionOutput/Function.exe
+
+build Function.exe: phony ../Function/FunctionOutput/Function.exe
+
+build FunctionOverloading: phony ../FunctionOverloading/FunctionOverloadingOutput/FunctionOverloading.exe
+
+build FunctionOverloading.exe: phony ../FunctionOverloading/FunctionOverloadingOutput/FunctionOverloading.exe
 
 build InputOutput: phony ../InputOutput/InputOutputOutput/InputOutput.exe
 
@@ -527,6 +917,34 @@ build swapNumbers.exe: phony ../swapNumbers/swapNumbersOutput/swapNumbers.exe
 # =============================================================================
 
 #############################################
+# Folder: D:/ClionProjects/OOPSLab/ArrayOfObjects/ArrayOfObjectsOutput
+
+build ../ArrayOfObjects/ArrayOfObjectsOutput/all: phony ../ArrayOfObjects/ArrayOfObjectsOutput/ArrayOfObjects.exe
+
+# =============================================================================
+
+#############################################
+# Folder: D:/ClionProjects/OOPSLab/ArrayOfObjectsAccount/ArrayOfObjectsAccountOutput
+
+build ../ArrayOfObjectsAccount/ArrayOfObjectsAccountOutput/all: phony ../ArrayOfObjectsAccount/ArrayOfObjectsAccountOutput/ArrayOfObjectsAccount.exe
+
+# =============================================================================
+
+#############################################
+# Folder: D:/ClionProjects/OOPSLab/ArrayOfObjectsStudents/ArrayOfObjectsStudentsOutput
+
+build ../ArrayOfObjectsStudents/ArrayOfObjectsStudentsOutput/all: phony ../ArrayOfObjectsStudents/ArrayOfObjectsStudentsOutput/ArrayOfObjectsStudents.exe
+
+# =============================================================================
+
+#############################################
+# Folder: D:/ClionProjects/OOPSLab/Class/ClassOutput
+
+build ../Class/ClassOutput/all: phony ../Class/ClassOutput/Class.exe
+
+# =============================================================================
+
+#############################################
 # Folder: D:/ClionProjects/OOPSLab/Conversions/ConversionsOutput
 
 build ../Conversions/ConversionsOutput/all: phony ../Conversions/ConversionsOutput/Conversions.exe
@@ -544,6 +962,20 @@ build ../Factorial/FactorialOutput/all: phony ../Factorial/FactorialOutput/Facto
 # Folder: D:/ClionProjects/OOPSLab/Fibonacci/FibonacciOutput
 
 build ../Fibonacci/FibonacciOutput/all: phony ../Fibonacci/FibonacciOutput/Fibonacci.exe
+
+# =============================================================================
+
+#############################################
+# Folder: D:/ClionProjects/OOPSLab/Function/FunctionOutput
+
+build ../Function/FunctionOutput/all: phony ../Function/FunctionOutput/Function.exe
+
+# =============================================================================
+
+#############################################
+# Folder: D:/ClionProjects/OOPSLab/FunctionOverloading/FunctionOverloadingOutput
+
+build ../FunctionOverloading/FunctionOverloadingOutput/all: phony ../FunctionOverloading/FunctionOverloadingOutput/FunctionOverloading.exe
 
 # =============================================================================
 
@@ -571,7 +1003,7 @@ build ../PerfectNumber/PerfectNumberOutput/all: phony ../PerfectNumber/PerfectNu
 #############################################
 # Folder: D:/ClionProjects/OOPSLab/cmake-build-debug
 
-build all: phony ../Fibonacci/FibonacciOutput/all ../Factorial/FactorialOutput/all ../InputOutput/InputOutputOutput/all ../Operations/OperationsOutput/all ../Conversions/ConversionsOutput/all ../PerfectNumber/PerfectNumberOutput/all ../swapNumbers/swapNumbersOutput/all
+build all: phony ../Fibonacci/FibonacciOutput/all ../Factorial/FactorialOutput/all ../InputOutput/InputOutputOutput/all ../Operations/OperationsOutput/all ../Conversions/ConversionsOutput/all ../PerfectNumber/PerfectNumberOutput/all ../swapNumbers/swapNumbersOutput/all ../FunctionOverloading/FunctionOverloadingOutput/all ../Function/FunctionOutput/all ../Class/ClassOutput/all ../ArrayOfObjects/ArrayOfObjectsOutput/all ../ArrayOfObjectsStudents/ArrayOfObjectsStudentsOutput/all ../ArrayOfObjectsAccount/ArrayOfObjectsAccountOutput/all
 
 # =============================================================================
 
@@ -587,14 +1019,14 @@ build ../swapNumbers/swapNumbersOutput/all: phony ../swapNumbers/swapNumbersOutp
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ../CMakeLists.txt ../Conversions/CMakeLists.txt ../Factorial/CMakeLists.txt ../Fibonacci/CMakeLists.txt ../InputOutput/CMakeLists.txt ../Operations/CMakeLists.txt ../PerfectNumber/CMakeLists.txt ../swapNumbers/CMakeLists.txt CMakeCache.txt CMakeFiles/3.21.1/CMakeCCompiler.cmake CMakeFiles/3.21.1/CMakeCXXCompiler.cmake CMakeFiles/3.21.1/CMakeRCCompiler.cmake CMakeFiles/3.21.1/CMakeSystem.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeCInformation.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeCXXInformation.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeGenericSystem.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeRCInformation.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-C.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-CXX.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-C.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-CXX.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-windres.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/WindowsPaths.cmake
+build build.ninja: RERUN_CMAKE | ../ArrayOfObjectsAccount/CMakeLists.txt ../ArrayOfObjectsStudents/CMakeLists.txt ../ArrayOfObjects/CMakeLists.txt ../CMakeLists.txt ../Class/CMakeLists.txt ../Conversions/CMakeLists.txt ../Factorial/CMakeLists.txt ../Fibonacci/CMakeLists.txt ../FunctionOverloading/CMakeLists.txt ../Function/CMakeLists.txt ../InputOutput/CMakeLists.txt ../Operations/CMakeLists.txt ../PerfectNumber/CMakeLists.txt ../swapNumbers/CMakeLists.txt CMakeCache.txt CMakeFiles/3.21.1/CMakeCCompiler.cmake CMakeFiles/3.21.1/CMakeCXXCompiler.cmake CMakeFiles/3.21.1/CMakeRCCompiler.cmake CMakeFiles/3.21.1/CMakeSystem.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeCInformation.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeCXXInformation.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeGenericSystem.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeRCInformation.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-C.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-CXX.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-C.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-CXX.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-windres.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/WindowsPaths.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ../CMakeLists.txt ../Conversions/CMakeLists.txt ../Factorial/CMakeLists.txt ../Fibonacci/CMakeLists.txt ../InputOutput/CMakeLists.txt ../Operations/CMakeLists.txt ../PerfectNumber/CMakeLists.txt ../swapNumbers/CMakeLists.txt CMakeCache.txt CMakeFiles/3.21.1/CMakeCCompiler.cmake CMakeFiles/3.21.1/CMakeCXXCompiler.cmake CMakeFiles/3.21.1/CMakeRCCompiler.cmake CMakeFiles/3.21.1/CMakeSystem.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeCInformation.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeCXXInformation.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeGenericSystem.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeRCInformation.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-C.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-CXX.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-C.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-CXX.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-windres.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/WindowsPaths.cmake: phony
+build ../ArrayOfObjectsAccount/CMakeLists.txt ../ArrayOfObjectsStudents/CMakeLists.txt ../ArrayOfObjects/CMakeLists.txt ../CMakeLists.txt ../Class/CMakeLists.txt ../Conversions/CMakeLists.txt ../Factorial/CMakeLists.txt ../Fibonacci/CMakeLists.txt ../FunctionOverloading/CMakeLists.txt ../Function/CMakeLists.txt ../InputOutput/CMakeLists.txt ../Operations/CMakeLists.txt ../PerfectNumber/CMakeLists.txt ../swapNumbers/CMakeLists.txt CMakeCache.txt CMakeFiles/3.21.1/CMakeCCompiler.cmake CMakeFiles/3.21.1/CMakeCXXCompiler.cmake CMakeFiles/3.21.1/CMakeRCCompiler.cmake CMakeFiles/3.21.1/CMakeSystem.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeCInformation.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeCXXInformation.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeGenericSystem.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeRCInformation.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-C.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-CXX.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-C.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-CXX.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-windres.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/WindowsPaths.cmake: phony
 
 
 #############################################

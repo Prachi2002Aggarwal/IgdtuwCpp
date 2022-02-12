@@ -165,6 +165,24 @@
 		},
 		{
 			"path" : "swapNumbers/CMakeLists.txt"
+		},
+		{
+			"path" : "FunctionOverloading/CMakeLists.txt"
+		},
+		{
+			"path" : "Function/CMakeLists.txt"
+		},
+		{
+			"path" : "Class/CMakeLists.txt"
+		},
+		{
+			"path" : "ArrayOfObjects/CMakeLists.txt"
+		},
+		{
+			"path" : "ArrayOfObjectsStudents/CMakeLists.txt"
+		},
+		{
+			"path" : "ArrayOfObjectsAccount/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",
