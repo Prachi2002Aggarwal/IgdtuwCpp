@@ -28,6 +28,7 @@ public:
 
 };
 int Student :: ID = 1;
+
 int main(){
     int rollNo;
     string studentName;

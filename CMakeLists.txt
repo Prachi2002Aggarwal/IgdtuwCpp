@@ -16,3 +16,5 @@ add_subdirectory("${PROJECT_SOURCE_DIR}/Class" "${PROJECT_SOURCE_DIR}/Class/Clas
 add_subdirectory("${PROJECT_SOURCE_DIR}/ArrayOfObjects" "${PROJECT_SOURCE_DIR}/ArrayOfObjects/ArrayOfObjectsOutput")
 add_subdirectory("${PROJECT_SOURCE_DIR}/ArrayOfObjectsStudents" "${PROJECT_SOURCE_DIR}/ArrayOfObjectsStudents/ArrayOfObjectsStudentsOutput")
 add_subdirectory("${PROJECT_SOURCE_DIR}/ArrayOfObjectsAccount" "${PROJECT_SOURCE_DIR}/ArrayOfObjectsAccount/ArrayOfObjectsAccountOutput")
+add_subdirectory("${PROJECT_SOURCE_DIR}/Rectangle" "${PROJECT_SOURCE_DIR}/Rectangle/RectangleOutput")
+add_subdirectory("${PROJECT_SOURCE_DIR}/Friend" "${PROJECT_SOURCE_DIR}/Friend/FriendOutput")

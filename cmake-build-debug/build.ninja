@@ -857,6 +857,128 @@ build ../ArrayOfObjectsAccount/ArrayOfObjectsAccountOutput/CMakeFiles/rebuild_ca
 build ../ArrayOfObjectsAccount/ArrayOfObjectsAccountOutput/rebuild_cache: phony ../ArrayOfObjectsAccount/ArrayOfObjectsAccountOutput/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/ClionProjects/OOPSLab/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Rectangle
+
+
+#############################################
+# Order-only phony target for Rectangle
+
+build cmake_object_order_depends_target_Rectangle: phony || ../Rectangle/RectangleOutput/CMakeFiles/Rectangle.dir
+
+build ../Rectangle/RectangleOutput/CMakeFiles/Rectangle.dir/Rectangle.cpp.obj: CXX_COMPILER__Rectangle_Debug D$:/ClionProjects/OOPSLab/Rectangle/Rectangle.cpp || cmake_object_order_depends_target_Rectangle
+  DEP_FILE = ..\Rectangle\RectangleOutput\CMakeFiles\Rectangle.dir\Rectangle.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = ..\Rectangle\RectangleOutput\CMakeFiles\Rectangle.dir
+  OBJECT_FILE_DIR = ..\Rectangle\RectangleOutput\CMakeFiles\Rectangle.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Rectangle
+
+
+#############################################
+# Link the executable ..\Rectangle\RectangleOutput\Rectangle.exe
+
+build ../Rectangle/RectangleOutput/Rectangle.exe: CXX_EXECUTABLE_LINKER__Rectangle_Debug ../Rectangle/RectangleOutput/CMakeFiles/Rectangle.dir/Rectangle.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = ..\Rectangle\RectangleOutput\CMakeFiles\Rectangle.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ..\Rectangle\RectangleOutput\Rectangle.exe
+  TARGET_IMPLIB = ..\Rectangle\RectangleOutput\libRectangle.dll.a
+  TARGET_PDB = Rectangle.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build ../Rectangle/RectangleOutput/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\ClionProjects\OOPSLab\Rectangle\RectangleOutput && D:\CLion\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build ../Rectangle/RectangleOutput/edit_cache: phony ../Rectangle/RectangleOutput/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build ../Rectangle/RectangleOutput/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\ClionProjects\OOPSLab\Rectangle\RectangleOutput && D:\CLion\bin\cmake\win\bin\cmake.exe --regenerate-during-build -SD:\ClionProjects\OOPSLab -BD:\ClionProjects\OOPSLab\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build ../Rectangle/RectangleOutput/rebuild_cache: phony ../Rectangle/RectangleOutput/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/ClionProjects/OOPSLab/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build ../Friend/FriendOutput/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\ClionProjects\OOPSLab\Friend\FriendOutput && D:\CLion\bin\cmake\win\bin\cmake.exe --regenerate-during-build -SD:\ClionProjects\OOPSLab -BD:\ClionProjects\OOPSLab\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build ../Friend/FriendOutput/rebuild_cache: phony ../Friend/FriendOutput/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Friend
+
+
+#############################################
+# Order-only phony target for Friend
+
+build cmake_object_order_depends_target_Friend: phony || ../Friend/FriendOutput/CMakeFiles/Friend.dir
+
+build ../Friend/FriendOutput/CMakeFiles/Friend.dir/Friend.cpp.obj: CXX_COMPILER__Friend_Debug D$:/ClionProjects/OOPSLab/Friend/Friend.cpp || cmake_object_order_depends_target_Friend
+  DEP_FILE = ..\Friend\FriendOutput\CMakeFiles\Friend.dir\Friend.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = ..\Friend\FriendOutput\CMakeFiles\Friend.dir
+  OBJECT_FILE_DIR = ..\Friend\FriendOutput\CMakeFiles\Friend.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Friend
+
+
+#############################################
+# Link the executable ..\Friend\FriendOutput\Friend.exe
+
+build ../Friend/FriendOutput/Friend.exe: CXX_EXECUTABLE_LINKER__Friend_Debug ../Friend/FriendOutput/CMakeFiles/Friend.dir/Friend.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = ..\Friend\FriendOutput\CMakeFiles\Friend.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ..\Friend\FriendOutput\Friend.exe
+  TARGET_IMPLIB = ..\Friend\FriendOutput\libFriend.dll.a
+  TARGET_PDB = Friend.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build ../Friend/FriendOutput/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\ClionProjects\OOPSLab\Friend\FriendOutput && D:\CLion\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build ../Friend/FriendOutput/edit_cache: phony ../Friend/FriendOutput/CMakeFiles/edit_cache.util
+
+# =============================================================================
 # Target aliases.
 
 build ArrayOfObjects: phony ../ArrayOfObjects/ArrayOfObjectsOutput/ArrayOfObjects.exe
@@ -887,6 +1009,10 @@ build Fibonacci: phony ../Fibonacci/FibonacciOutput/Fibonacci.exe
 
 build Fibonacci.exe: phony ../Fibonacci/FibonacciOutput/Fibonacci.exe
 
+build Friend: phony ../Friend/FriendOutput/Friend.exe
+
+build Friend.exe: phony ../Friend/FriendOutput/Friend.exe
+
 build Function: phony ../Function/FunctionOutput/Function.exe
 
 build Function.exe: phony ../Function/FunctionOutput/Function.exe
@@ -906,6 +1032,10 @@ build Operations.exe: phony ../Operations/OperationsOutput/Operations.exe
 build PerfectNumber: phony ../PerfectNumber/PerfectNumberOutput/PerfectNumber.exe
 
 build PerfectNumber.exe: phony ../PerfectNumber/PerfectNumberOutput/PerfectNumber.exe
+
+build Rectangle: phony ../Rectangle/RectangleOutput/Rectangle.exe
+
+build Rectangle.exe: phony ../Rectangle/RectangleOutput/Rectangle.exe
 
 build swapNumbers: phony ../swapNumbers/swapNumbersOutput/swapNumbers.exe
 
@@ -966,6 +1096,13 @@ build ../Fibonacci/FibonacciOutput/all: phony ../Fibonacci/FibonacciOutput/Fibon
 # =============================================================================
 
 #############################################
+# Folder: D:/ClionProjects/OOPSLab/Friend/FriendOutput
+
+build ../Friend/FriendOutput/all: phony ../Friend/FriendOutput/Friend.exe
+
+# =============================================================================
+
+#############################################
 # Folder: D:/ClionProjects/OOPSLab/Function/FunctionOutput
 
 build ../Function/FunctionOutput/all: phony ../Function/FunctionOutput/Function.exe
@@ -1001,9 +1138,16 @@ build ../PerfectNumber/PerfectNumberOutput/all: phony ../PerfectNumber/PerfectNu
 # =============================================================================
 
 #############################################
+# Folder: D:/ClionProjects/OOPSLab/Rectangle/RectangleOutput
+
+build ../Rectangle/RectangleOutput/all: phony ../Rectangle/RectangleOutput/Rectangle.exe
+
+# =============================================================================
+
+#############################################
 # Folder: D:/ClionProjects/OOPSLab/cmake-build-debug
 
-build all: phony ../Fibonacci/FibonacciOutput/all ../Factorial/FactorialOutput/all ../InputOutput/InputOutputOutput/all ../Operations/OperationsOutput/all ../Conversions/ConversionsOutput/all ../PerfectNumber/PerfectNumberOutput/all ../swapNumbers/swapNumbersOutput/all ../FunctionOverloading/FunctionOverloadingOutput/all ../Function/FunctionOutput/all ../Class/ClassOutput/all ../ArrayOfObjects/ArrayOfObjectsOutput/all ../ArrayOfObjectsStudents/ArrayOfObjectsStudentsOutput/all ../ArrayOfObjectsAccount/ArrayOfObjectsAccountOutput/all
+build all: phony ../Fibonacci/FibonacciOutput/all ../Factorial/FactorialOutput/all ../InputOutput/InputOutputOutput/all ../Operations/OperationsOutput/all ../Conversions/ConversionsOutput/all ../PerfectNumber/PerfectNumberOutput/all ../swapNumbers/swapNumbersOutput/all ../FunctionOverloading/FunctionOverloadingOutput/all ../Function/FunctionOutput/all ../Class/ClassOutput/all ../ArrayOfObjects/ArrayOfObjectsOutput/all ../ArrayOfObjectsStudents/ArrayOfObjectsStudentsOutput/all ../ArrayOfObjectsAccount/ArrayOfObjectsAccountOutput/all ../Rectangle/RectangleOutput/all ../Friend/FriendOutput/all
 
 # =============================================================================
 
@@ -1019,14 +1163,14 @@ build ../swapNumbers/swapNumbersOutput/all: phony ../swapNumbers/swapNumbersOutp
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ../ArrayOfObjectsAccount/CMakeLists.txt ../ArrayOfObjectsStudents/CMakeLists.txt ../ArrayOfObjects/CMakeLists.txt ../CMakeLists.txt ../Class/CMakeLists.txt ../Conversions/CMakeLists.txt ../Factorial/CMakeLists.txt ../Fibonacci/CMakeLists.txt ../FunctionOverloading/CMakeLists.txt ../Function/CMakeLists.txt ../InputOutput/CMakeLists.txt ../Operations/CMakeLists.txt ../PerfectNumber/CMakeLists.txt ../swapNumbers/CMakeLists.txt CMakeCache.txt CMakeFiles/3.21.1/CMakeCCompiler.cmake CMakeFiles/3.21.1/CMakeCXXCompiler.cmake CMakeFiles/3.21.1/CMakeRCCompiler.cmake CMakeFiles/3.21.1/CMakeSystem.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeCInformation.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeCXXInformation.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeGenericSystem.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeRCInformation.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-C.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-CXX.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-C.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-CXX.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-windres.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/WindowsPaths.cmake
+build build.ninja: RERUN_CMAKE | ../ArrayOfObjectsAccount/CMakeLists.txt ../ArrayOfObjectsStudents/CMakeLists.txt ../ArrayOfObjects/CMakeLists.txt ../CMakeLists.txt ../Class/CMakeLists.txt ../Conversions/CMakeLists.txt ../Factorial/CMakeLists.txt ../Fibonacci/CMakeLists.txt ../Friend/CMakeLists.txt ../FunctionOverloading/CMakeLists.txt ../Function/CMakeLists.txt ../InputOutput/CMakeLists.txt ../Operations/CMakeLists.txt ../PerfectNumber/CMakeLists.txt ../Rectangle/CMakeLists.txt ../swapNumbers/CMakeLists.txt CMakeCache.txt CMakeFiles/3.21.1/CMakeCCompiler.cmake CMakeFiles/3.21.1/CMakeCXXCompiler.cmake CMakeFiles/3.21.1/CMakeRCCompiler.cmake CMakeFiles/3.21.1/CMakeSystem.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeCInformation.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeCXXInformation.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeGenericSystem.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeRCInformation.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-C.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-CXX.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-C.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-CXX.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-windres.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/WindowsPaths.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ../ArrayOfObjectsAccount/CMakeLists.txt ../ArrayOfObjectsStudents/CMakeLists.txt ../ArrayOfObjects/CMakeLists.txt ../CMakeLists.txt ../Class/CMakeLists.txt ../Conversions/CMakeLists.txt ../Factorial/CMakeLists.txt ../Fibonacci/CMakeLists.txt ../FunctionOverloading/CMakeLists.txt ../Function/CMakeLists.txt ../InputOutput/CMakeLists.txt ../Operations/CMakeLists.txt ../PerfectNumber/CMakeLists.txt ../swapNumbers/CMakeLists.txt CMakeCache.txt CMakeFiles/3.21.1/CMakeCCompiler.cmake CMakeFiles/3.21.1/CMakeCXXCompiler.cmake CMakeFiles/3.21.1/CMakeRCCompiler.cmake CMakeFiles/3.21.1/CMakeSystem.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeCInformation.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeCXXInformation.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeGenericSystem.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeRCInformation.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-C.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-CXX.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-C.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-CXX.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-windres.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/WindowsPaths.cmake: phony
+build ../ArrayOfObjectsAccount/CMakeLists.txt ../ArrayOfObjectsStudents/CMakeLists.txt ../ArrayOfObjects/CMakeLists.txt ../CMakeLists.txt ../Class/CMakeLists.txt ../Conversions/CMakeLists.txt ../Factorial/CMakeLists.txt ../Fibonacci/CMakeLists.txt ../Friend/CMakeLists.txt ../FunctionOverloading/CMakeLists.txt ../Function/CMakeLists.txt ../InputOutput/CMakeLists.txt ../Operations/CMakeLists.txt ../PerfectNumber/CMakeLists.txt ../Rectangle/CMakeLists.txt ../swapNumbers/CMakeLists.txt CMakeCache.txt CMakeFiles/3.21.1/CMakeCCompiler.cmake CMakeFiles/3.21.1/CMakeCXXCompiler.cmake CMakeFiles/3.21.1/CMakeRCCompiler.cmake CMakeFiles/3.21.1/CMakeSystem.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeCInformation.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeCXXInformation.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeGenericSystem.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeRCInformation.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-C.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-CXX.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-C.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-CXX.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-windres.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows.cmake D$:/CLion/bin/cmake/win/share/cmake-3.21/Modules/Platform/WindowsPaths.cmake: phony
 
 
 #############################################

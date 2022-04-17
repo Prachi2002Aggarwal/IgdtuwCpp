@@ -39,3 +39,9 @@ D:/ClionProjects/OOPSLab/ArrayOfObjectsStudents/ArrayOfObjectsStudentsOutput/CMa
 D:/ClionProjects/OOPSLab/ArrayOfObjectsAccount/ArrayOfObjectsAccountOutput/CMakeFiles/ArrayOfObjectsAccount.dir
 D:/ClionProjects/OOPSLab/ArrayOfObjectsAccount/ArrayOfObjectsAccountOutput/CMakeFiles/edit_cache.dir
 D:/ClionProjects/OOPSLab/ArrayOfObjectsAccount/ArrayOfObjectsAccountOutput/CMakeFiles/rebuild_cache.dir
+D:/ClionProjects/OOPSLab/Rectangle/RectangleOutput/CMakeFiles/Rectangle.dir
+D:/ClionProjects/OOPSLab/Rectangle/RectangleOutput/CMakeFiles/edit_cache.dir
+D:/ClionProjects/OOPSLab/Rectangle/RectangleOutput/CMakeFiles/rebuild_cache.dir
+D:/ClionProjects/OOPSLab/Friend/FriendOutput/CMakeFiles/rebuild_cache.dir
+D:/ClionProjects/OOPSLab/Friend/FriendOutput/CMakeFiles/Friend.dir
+D:/ClionProjects/OOPSLab/Friend/FriendOutput/CMakeFiles/edit_cache.dir
